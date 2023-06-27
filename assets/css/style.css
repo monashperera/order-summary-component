@@ -211,7 +211,16 @@ p, h1, h2, h3, h4, h5, h6 {
     color: var(--desaturated-blue);
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 1199px) {
+
+    body {
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        background-image: url('../images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-position: top center;
+    }
 
     .attribution {
         width: 100vw;
