@@ -97,7 +97,7 @@ p, h1, h2, h3, h4, h5, h6 {
     color: var(--desaturated-blue);
     text-decoration: none;
     font-size: 14px;
-    font-weight: var(--fw-700);
+    font-weight: var(--fw-900);
     -webkit-transition: .4s;
     transition: .4s;
 }
