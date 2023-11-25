@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-Medium.woff2') format(woff2);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-Bold.woff2') format(woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Red Hat Display Black';
+    src: url('../fonts/RedHatDisplay-Black.woff2') format(woff2);
+    font-weight: 900;
+}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -27,6 +43,7 @@
 html, body {
     height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
+    font-weight: var(--fw-500);
     background-color: var(--pale-blue);
 }
 
@@ -159,7 +176,6 @@ p, h1, h2, h3, h4, h5, h6 {
 .summary-card-heading {
     padding-top: 2.5rem;
     text-align: center;
-    font-weight: var(--fw-900);
     color: var(--dark-blue);
 }
 
